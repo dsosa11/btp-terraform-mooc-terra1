@@ -26,8 +26,6 @@
   // - BTP_PASSWORD
   // - CF_USER
   // - CF_PASSWORD
-  "runArgs": [
-    "--env-file",
-    ".devcontainer/devcontainer.env"
-  ]
+  "envFile": ".devcontainer/devcontainer.env"
+
 }
